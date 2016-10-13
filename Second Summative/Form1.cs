@@ -13,7 +13,7 @@ namespace Second_Summative
     public partial class Form1 : Form
     {
         const double SNOW_ANGEL_COST = 10.50;
-        double price;
+        double price; 
         //int amount = 0;
         int snowAngel = 0;
 
