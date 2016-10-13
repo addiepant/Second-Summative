@@ -13,9 +13,15 @@ namespace Second_Summative
     public partial class Form1 : Form
     {
         const double SNOW_ANGEL_COST = 10.50;
+        const double SILVER_WINGS_COST = 11.50;
+        const double CHAMPAGNE_COST = 11.50;
+        const double COPPER_HEART_COST = 11.50;
+
         double price; 
-        //int amount = 0;
         int snowAngel = 0;
+        int silverWings = 0;
+        int champagne = 0;
+        int copperHeart = 0;
 
         public Form1()
         {
@@ -25,10 +31,14 @@ namespace Second_Summative
         private void checkoutLabel_Click(object sender, EventArgs e)
         {
             snowAngel = Convert.ToInt16(textBoxInput.Text);
+            silverWings = Convert.ToInt16(textBoxInput2.Text);
+            champagne = Convert.ToInt16(textBoxInput3.Text);
+            copperHeart = Convert.ToInt16(textBoxInput4.Text);
 
-            price = snowAngel * SNOW_ANGEL_COST;
+            price = snowAngel * SNOW_ANGEL_COST + silverWings * SILVER_WINGS_COST + champagne * CHAMPAGNE_COST 
+                + COPPER_HEART_COST * copperHeart;
 
-            outputLabel.Text = "Your Total comes to" + price.ToString("$0.00");
+            outputLabel.Text = "Your Total comes to " + price.ToString("$0.00");
         }
     }
 }

@@ -34,9 +34,16 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.checkoutLabel = new System.Windows.Forms.Button();
-            this.label5 = new System.Windows.Forms.Label();
+            this.snowAngle = new System.Windows.Forms.Label();
             this.textBoxInput = new System.Windows.Forms.TextBox();
             this.outputLabel = new System.Windows.Forms.Label();
+            this.silverWing = new System.Windows.Forms.Label();
+            this.textBoxInput2 = new System.Windows.Forms.TextBox();
+            this.champagneShadow = new System.Windows.Forms.Label();
+            this.textBoxInput3 = new System.Windows.Forms.TextBox();
+            this.copperShadow = new System.Windows.Forms.Label();
+            this.textBoxInput4 = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -90,17 +97,17 @@
             this.checkoutLabel.UseVisualStyleBackColor = false;
             this.checkoutLabel.Click += new System.EventHandler(this.checkoutLabel_Click);
             // 
-            // label5
+            // snowAngle
             // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Segoe Script", 6.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(77, 130);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(65, 14);
-            this.label5.TabIndex = 5;
-            this.label5.Text = "Snow Angel";
+            this.snowAngle.AutoSize = true;
+            this.snowAngle.BackColor = System.Drawing.Color.Transparent;
+            this.snowAngle.Font = new System.Drawing.Font("Segoe Script", 6.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.snowAngle.ForeColor = System.Drawing.Color.Black;
+            this.snowAngle.Location = new System.Drawing.Point(77, 130);
+            this.snowAngle.Name = "snowAngle";
+            this.snowAngle.Size = new System.Drawing.Size(65, 14);
+            this.snowAngle.TabIndex = 5;
+            this.snowAngle.Text = "Snow Angel";
             // 
             // textBoxInput
             // 
@@ -114,20 +121,90 @@
             this.outputLabel.AutoSize = true;
             this.outputLabel.BackColor = System.Drawing.Color.Transparent;
             this.outputLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.outputLabel.Location = new System.Drawing.Point(70, 289);
+            this.outputLabel.Location = new System.Drawing.Point(269, 15);
             this.outputLabel.Name = "outputLabel";
             this.outputLabel.Size = new System.Drawing.Size(0, 13);
             this.outputLabel.TabIndex = 7;
+            // 
+            // silverWing
+            // 
+            this.silverWing.AutoSize = true;
+            this.silverWing.BackColor = System.Drawing.Color.Transparent;
+            this.silverWing.Font = new System.Drawing.Font("Segoe Script", 6.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.silverWing.Location = new System.Drawing.Point(77, 153);
+            this.silverWing.Name = "silverWing";
+            this.silverWing.Size = new System.Drawing.Size(67, 14);
+            this.silverWing.TabIndex = 8;
+            this.silverWing.Text = "Silver Wings";
+            // 
+            // textBoxInput2
+            // 
+            this.textBoxInput2.Location = new System.Drawing.Point(148, 147);
+            this.textBoxInput2.Name = "textBoxInput2";
+            this.textBoxInput2.Size = new System.Drawing.Size(28, 20);
+            this.textBoxInput2.TabIndex = 9;
+            // 
+            // champagneShadow
+            // 
+            this.champagneShadow.AutoSize = true;
+            this.champagneShadow.BackColor = System.Drawing.Color.Transparent;
+            this.champagneShadow.Font = new System.Drawing.Font("Segoe Print", 6.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.champagneShadow.Location = new System.Drawing.Point(77, 171);
+            this.champagneShadow.Name = "champagneShadow";
+            this.champagneShadow.Size = new System.Drawing.Size(61, 16);
+            this.champagneShadow.TabIndex = 10;
+            this.champagneShadow.Text = "Champagne";
+            // 
+            // textBoxInput3
+            // 
+            this.textBoxInput3.Location = new System.Drawing.Point(148, 168);
+            this.textBoxInput3.Name = "textBoxInput3";
+            this.textBoxInput3.Size = new System.Drawing.Size(27, 20);
+            this.textBoxInput3.TabIndex = 11;
+            // 
+            // copperShadow
+            // 
+            this.copperShadow.AutoSize = true;
+            this.copperShadow.BackColor = System.Drawing.Color.Transparent;
+            this.copperShadow.Font = new System.Drawing.Font("Segoe Script", 6.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.copperShadow.Location = new System.Drawing.Point(76, 194);
+            this.copperShadow.Name = "copperShadow";
+            this.copperShadow.Size = new System.Drawing.Size(72, 14);
+            this.copperShadow.TabIndex = 12;
+            this.copperShadow.Text = "Copper Heart";
+            // 
+            // textBoxInput4
+            // 
+            this.textBoxInput4.Location = new System.Drawing.Point(148, 190);
+            this.textBoxInput4.Name = "textBoxInput4";
+            this.textBoxInput4.Size = new System.Drawing.Size(28, 20);
+            this.textBoxInput4.TabIndex = 13;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(85, 218);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(35, 13);
+            this.label5.TabIndex = 14;
+            this.label5.Text = "label5";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(235, 328);
+            this.ClientSize = new System.Drawing.Size(470, 328);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.textBoxInput4);
+            this.Controls.Add(this.copperShadow);
+            this.Controls.Add(this.textBoxInput3);
+            this.Controls.Add(this.champagneShadow);
+            this.Controls.Add(this.textBoxInput2);
+            this.Controls.Add(this.silverWing);
             this.Controls.Add(this.outputLabel);
             this.Controls.Add(this.textBoxInput);
-            this.Controls.Add(this.label5);
+            this.Controls.Add(this.snowAngle);
             this.Controls.Add(this.checkoutLabel);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -147,9 +224,16 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button checkoutLabel;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label snowAngle;
         private System.Windows.Forms.TextBox textBoxInput;
         private System.Windows.Forms.Label outputLabel;
+        private System.Windows.Forms.Label silverWing;
+        private System.Windows.Forms.TextBox textBoxInput2;
+        private System.Windows.Forms.Label champagneShadow;
+        private System.Windows.Forms.TextBox textBoxInput3;
+        private System.Windows.Forms.Label copperShadow;
+        private System.Windows.Forms.TextBox textBoxInput4;
+        private System.Windows.Forms.Label label5;
     }
 }
 
