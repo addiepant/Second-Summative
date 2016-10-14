@@ -39,6 +39,6 @@ namespace Second_Summative
                 + COPPER_HEART_COST * copperHeart;
 
             outputLabel.Text = "Your Total comes to " + price.ToString("$0.00");
-        }
+        } 
     }
 }
