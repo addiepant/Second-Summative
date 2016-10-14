@@ -43,7 +43,10 @@
             this.textBoxInput3 = new System.Windows.Forms.TextBox();
             this.copperShadow = new System.Windows.Forms.Label();
             this.textBoxInput4 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
+            this.burntFlowers = new System.Windows.Forms.Label();
+            this.textBoxInput5 = new System.Windows.Forms.TextBox();
+            this.rosePlumShadow = new System.Windows.Forms.Label();
+            this.textBoxInput6 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -121,7 +124,7 @@
             this.outputLabel.AutoSize = true;
             this.outputLabel.BackColor = System.Drawing.Color.Transparent;
             this.outputLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.outputLabel.Location = new System.Drawing.Point(269, 15);
+            this.outputLabel.Location = new System.Drawing.Point(305, 15);
             this.outputLabel.Name = "outputLabel";
             this.outputLabel.Size = new System.Drawing.Size(0, 13);
             this.outputLabel.TabIndex = 7;
@@ -139,7 +142,7 @@
             // 
             // textBoxInput2
             // 
-            this.textBoxInput2.Location = new System.Drawing.Point(148, 147);
+            this.textBoxInput2.Location = new System.Drawing.Point(148, 148);
             this.textBoxInput2.Name = "textBoxInput2";
             this.textBoxInput2.Size = new System.Drawing.Size(28, 20);
             this.textBoxInput2.TabIndex = 9;
@@ -157,7 +160,7 @@
             // 
             // textBoxInput3
             // 
-            this.textBoxInput3.Location = new System.Drawing.Point(148, 168);
+            this.textBoxInput3.Location = new System.Drawing.Point(148, 170);
             this.textBoxInput3.Name = "textBoxInput3";
             this.textBoxInput3.Size = new System.Drawing.Size(27, 20);
             this.textBoxInput3.TabIndex = 11;
@@ -175,19 +178,48 @@
             // 
             // textBoxInput4
             // 
-            this.textBoxInput4.Location = new System.Drawing.Point(148, 190);
+            this.textBoxInput4.Location = new System.Drawing.Point(148, 192);
             this.textBoxInput4.Name = "textBoxInput4";
             this.textBoxInput4.Size = new System.Drawing.Size(28, 20);
             this.textBoxInput4.TabIndex = 13;
             // 
-            // label5
+            // burntFlowers
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(85, 218);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(35, 13);
-            this.label5.TabIndex = 14;
-            this.label5.Text = "label5";
+            this.burntFlowers.AutoSize = true;
+            this.burntFlowers.BackColor = System.Drawing.Color.Transparent;
+            this.burntFlowers.Font = new System.Drawing.Font("Segoe Script", 6.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.burntFlowers.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.burntFlowers.Location = new System.Drawing.Point(87, 219);
+            this.burntFlowers.Name = "burntFlowers";
+            this.burntFlowers.Size = new System.Drawing.Size(43, 14);
+            this.burntFlowers.TabIndex = 14;
+            this.burntFlowers.Text = "Flowers";
+            // 
+            // textBoxInput5
+            // 
+            this.textBoxInput5.Location = new System.Drawing.Point(148, 213);
+            this.textBoxInput5.Name = "textBoxInput5";
+            this.textBoxInput5.Size = new System.Drawing.Size(28, 20);
+            this.textBoxInput5.TabIndex = 15;
+            // 
+            // rosePlumShadow
+            // 
+            this.rosePlumShadow.AutoSize = true;
+            this.rosePlumShadow.BackColor = System.Drawing.Color.Transparent;
+            this.rosePlumShadow.Font = new System.Drawing.Font("Segoe Script", 6.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rosePlumShadow.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.rosePlumShadow.Location = new System.Drawing.Point(86, 243);
+            this.rosePlumShadow.Name = "rosePlumShadow";
+            this.rosePlumShadow.Size = new System.Drawing.Size(52, 14);
+            this.rosePlumShadow.TabIndex = 16;
+            this.rosePlumShadow.Text = "roseplum";
+            // 
+            // textBoxInput6
+            // 
+            this.textBoxInput6.Location = new System.Drawing.Point(148, 235);
+            this.textBoxInput6.Name = "textBoxInput6";
+            this.textBoxInput6.Size = new System.Drawing.Size(27, 20);
+            this.textBoxInput6.TabIndex = 17;
             // 
             // Form1
             // 
@@ -195,7 +227,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(470, 328);
-            this.Controls.Add(this.label5);
+            this.Controls.Add(this.textBoxInput6);
+            this.Controls.Add(this.rosePlumShadow);
+            this.Controls.Add(this.textBoxInput5);
+            this.Controls.Add(this.burntFlowers);
             this.Controls.Add(this.textBoxInput4);
             this.Controls.Add(this.copperShadow);
             this.Controls.Add(this.textBoxInput3);
@@ -233,7 +268,10 @@
         private System.Windows.Forms.TextBox textBoxInput3;
         private System.Windows.Forms.Label copperShadow;
         private System.Windows.Forms.TextBox textBoxInput4;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label burntFlowers;
+        private System.Windows.Forms.TextBox textBoxInput5;
+        private System.Windows.Forms.Label rosePlumShadow;
+        private System.Windows.Forms.TextBox textBoxInput6;
     }
 }
 
