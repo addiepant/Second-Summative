@@ -89,7 +89,7 @@ namespace Second_Summative
             Font recieptFont = new Font("Courier New", 8);
 
             //Create white background for receipt
-            formGraphics.FillRectangle(recieptBrush, 200, 0, 300, 300);
+            formGraphics.FillRectangle(recieptBrush, 200, 0, 300, 300); 
 
             //create strings that stat each product and price
             formGraphics.DrawString(" SnowAngel x" + snowAngel + " $" + SNOW_ANGEL_COST, recieptFont, wordBrush, 210, 60);
