@@ -92,12 +92,12 @@ namespace Second_Summative
             formGraphics.FillRectangle(recieptBrush, 200, 0, 300, 300);
 
             //create strings that stat each product and price
-            formGraphics.DrawString(" SnowAngel x" + snowAngel + SNOW_ANGEL_COST, recieptFont, wordBrush, 210, 60);
-            formGraphics.DrawString( " SilverWings x" + silverWings + SILVER_WINGS_COST, recieptFont, wordBrush, 210, 80);
-            formGraphics.DrawString(" Champagne x" + champagne + CHAMPAGNE_COST, recieptFont, wordBrush, 210, 100);
-            formGraphics.DrawString(" copperHeart x" + copperHeart + COPPER_HEART_COST, recieptFont, wordBrush, 210, 120);
-            formGraphics.DrawString(" flowers x" + flowers + FLOWERS_COST, recieptFont, wordBrush, 210, 140);
-            formGraphics.DrawString(" rose plum x" + rosePlum + ROSE_PLUM_COST, recieptFont, wordBrush, 210, 160);
+            formGraphics.DrawString(" SnowAngel x" + snowAngel + " $" + SNOW_ANGEL_COST, recieptFont, wordBrush, 210, 60);
+            formGraphics.DrawString( " SilverWings x" + silverWings + " $" + SILVER_WINGS_COST, recieptFont, wordBrush, 210, 80);
+            formGraphics.DrawString(" Champagne x" + champagne + " $" + CHAMPAGNE_COST, recieptFont, wordBrush, 210, 100);
+            formGraphics.DrawString(" copperHeart x" + copperHeart + " $" + COPPER_HEART_COST, recieptFont, wordBrush, 210, 120);
+            formGraphics.DrawString(" flowers x" + flowers + " $" + FLOWERS_COST, recieptFont, wordBrush, 210, 140);
+            formGraphics.DrawString(" rose plum x" + rosePlum + " $" +  ROSE_PLUM_COST, recieptFont, wordBrush, 210, 160);
             formGraphics.DrawString(" Total Cost $" + total, recieptFont, wordBrush, 210, 180);
             formGraphics.DrawString(" Amount given $" + tendered, recieptFont, wordBrush, 210, 200);
             formGraphics.DrawString(" Change $" + change, recieptFont, wordBrush, 210, 220);
@@ -109,8 +109,8 @@ namespace Second_Summative
             try
             {
                 tendered = Convert.ToDouble(tenderedBox.Text);
-                change = tendered - total;
-                changeLabel.Text = "Change: " + change;
+                change = tendered - total; ;
+                changeLabel.Text = "Change: " + change.ToString("C");
             }
             catch
             {
