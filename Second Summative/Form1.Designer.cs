@@ -1,6 +1,6 @@
 ﻿namespace Second_Summative
 {
-    partial class Form1
+    partial class makeupCashRegister
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(makeupCashRegister));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -47,6 +47,14 @@
             this.textBoxInput5 = new System.Windows.Forms.TextBox();
             this.rosePlumShadow = new System.Windows.Forms.Label();
             this.textBoxInput6 = new System.Windows.Forms.TextBox();
+            this.blankLabel = new System.Windows.Forms.Label();
+            this.tenderedButton = new System.Windows.Forms.Button();
+            this.receiptButton = new System.Windows.Forms.Button();
+            this.taxAmountLabel = new System.Windows.Forms.Label();
+            this.priceLabel = new System.Windows.Forms.Label();
+            this.tenderedBox = new System.Windows.Forms.TextBox();
+            this.changeLabel = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -92,7 +100,7 @@
             // 
             this.checkoutLabel.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.checkoutLabel.ForeColor = System.Drawing.SystemColors.Control;
-            this.checkoutLabel.Location = new System.Drawing.Point(73, 304);
+            this.checkoutLabel.Location = new System.Drawing.Point(69, 272);
             this.checkoutLabel.Name = "checkoutLabel";
             this.checkoutLabel.Size = new System.Drawing.Size(75, 23);
             this.checkoutLabel.TabIndex = 4;
@@ -122,9 +130,9 @@
             // outputLabel
             // 
             this.outputLabel.AutoSize = true;
-            this.outputLabel.BackColor = System.Drawing.Color.Transparent;
-            this.outputLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.outputLabel.Location = new System.Drawing.Point(305, 15);
+            this.outputLabel.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.outputLabel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.outputLabel.Location = new System.Drawing.Point(70, 349);
             this.outputLabel.Name = "outputLabel";
             this.outputLabel.Size = new System.Drawing.Size(0, 13);
             this.outputLabel.TabIndex = 7;
@@ -221,12 +229,95 @@
             this.textBoxInput6.Size = new System.Drawing.Size(27, 20);
             this.textBoxInput6.TabIndex = 17;
             // 
-            // Form1
+            // blankLabel
+            // 
+            this.blankLabel.BackColor = System.Drawing.Color.White;
+            this.blankLabel.Location = new System.Drawing.Point(-9, 258);
+            this.blankLabel.Name = "blankLabel";
+            this.blankLabel.Size = new System.Drawing.Size(484, 219);
+            this.blankLabel.TabIndex = 18;
+            // 
+            // tenderedButton
+            // 
+            this.tenderedButton.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.tenderedButton.ForeColor = System.Drawing.SystemColors.Control;
+            this.tenderedButton.Location = new System.Drawing.Point(66, 396);
+            this.tenderedButton.Name = "tenderedButton";
+            this.tenderedButton.Size = new System.Drawing.Size(75, 23);
+            this.tenderedButton.TabIndex = 19;
+            this.tenderedButton.Text = "Tendered";
+            this.tenderedButton.UseVisualStyleBackColor = false;
+            this.tenderedButton.Click += new System.EventHandler(this.tenderedButton_Click);
+            // 
+            // receiptButton
+            // 
+            this.receiptButton.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.receiptButton.ForeColor = System.Drawing.SystemColors.Control;
+            this.receiptButton.Location = new System.Drawing.Point(67, 438);
+            this.receiptButton.Name = "receiptButton";
+            this.receiptButton.Size = new System.Drawing.Size(75, 23);
+            this.receiptButton.TabIndex = 20;
+            this.receiptButton.Text = "Receipt";
+            this.receiptButton.UseVisualStyleBackColor = false;
+            this.receiptButton.Click += new System.EventHandler(this.receiptButton_Click);
+            // 
+            // taxAmountLabel
+            // 
+            this.taxAmountLabel.AutoSize = true;
+            this.taxAmountLabel.Location = new System.Drawing.Point(70, 298);
+            this.taxAmountLabel.Name = "taxAmountLabel";
+            this.taxAmountLabel.Size = new System.Drawing.Size(0, 13);
+            this.taxAmountLabel.TabIndex = 21;
+            // 
+            // priceLabel
+            // 
+            this.priceLabel.AutoSize = true;
+            this.priceLabel.Location = new System.Drawing.Point(70, 325);
+            this.priceLabel.Name = "priceLabel";
+            this.priceLabel.Size = new System.Drawing.Size(0, 13);
+            this.priceLabel.TabIndex = 22;
+            // 
+            // tenderedBox
+            // 
+            this.tenderedBox.Location = new System.Drawing.Point(69, 369);
+            this.tenderedBox.Name = "tenderedBox";
+            this.tenderedBox.Size = new System.Drawing.Size(70, 20);
+            this.tenderedBox.TabIndex = 23;
+            // 
+            // changeLabel
+            // 
+            this.changeLabel.AutoSize = true;
+            this.changeLabel.BackColor = System.Drawing.Color.White;
+            this.changeLabel.Location = new System.Drawing.Point(74, 422);
+            this.changeLabel.Name = "changeLabel";
+            this.changeLabel.Size = new System.Drawing.Size(0, 13);
+            this.changeLabel.TabIndex = 24;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label5.Location = new System.Drawing.Point(71, 349);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(0, 13);
+            this.label5.TabIndex = 25;
+            // 
+            // makeupCashRegister
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(470, 328);
+            this.ClientSize = new System.Drawing.Size(470, 473);
+            this.Controls.Add(this.outputLabel);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.checkoutLabel);
+            this.Controls.Add(this.changeLabel);
+            this.Controls.Add(this.tenderedBox);
+            this.Controls.Add(this.priceLabel);
+            this.Controls.Add(this.taxAmountLabel);
+            this.Controls.Add(this.receiptButton);
+            this.Controls.Add(this.tenderedButton);
+            this.Controls.Add(this.blankLabel);
             this.Controls.Add(this.textBoxInput6);
             this.Controls.Add(this.rosePlumShadow);
             this.Controls.Add(this.textBoxInput5);
@@ -237,16 +328,15 @@
             this.Controls.Add(this.champagneShadow);
             this.Controls.Add(this.textBoxInput2);
             this.Controls.Add(this.silverWing);
-            this.Controls.Add(this.outputLabel);
             this.Controls.Add(this.textBoxInput);
             this.Controls.Add(this.snowAngle);
-            this.Controls.Add(this.checkoutLabel);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "makeupCashRegister";
+            this.Text = "Custom Makeup Pallete";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -272,6 +362,14 @@
         private System.Windows.Forms.TextBox textBoxInput5;
         private System.Windows.Forms.Label rosePlumShadow;
         private System.Windows.Forms.TextBox textBoxInput6;
+        private System.Windows.Forms.Label blankLabel;
+        private System.Windows.Forms.Button tenderedButton;
+        private System.Windows.Forms.Button receiptButton;
+        private System.Windows.Forms.Label taxAmountLabel;
+        private System.Windows.Forms.Label priceLabel;
+        private System.Windows.Forms.TextBox tenderedBox;
+        private System.Windows.Forms.Label changeLabel;
+        private System.Windows.Forms.Label label5;
     }
 }
 
